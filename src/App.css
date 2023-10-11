@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  height: fit-content;
+  width: 100%;
+  background-size: cover;
+}
+
+.content-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-container-width {
+  height: fit-content;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.image-to-be-matched {
+  width: 100%;
+  margin: 15px;
+}
+
+.tabIdList {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  display: flex;
+  height: 60px;
+}
+
+.thumbnailImageList {
+  list-style-type: none;
+  padding: 0px;
+  margin-top: 10px;
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+}
+
+.result-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  height: 100vh;
+  width: 60%;
+  background-size: contain;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  align-self: center;
+}
+
+.trophy-image {
+  width: 300px;
+  margin-top: 25px;
+}
+
+.result-statement {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 30px;
+  padding: 0px;
+  margin: 5px 0 0 0;
+}
+
+.result-score {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 40px;
+  margin: 5px 0 0 0;
+  padding: 0px;
+}
+
+.reset-btn {
+  height: 50px;
+  width: 150px;
+  background-color: #cf60c8;
+  border-radius: 15px;
+  border: none;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+  outline: none;
+}

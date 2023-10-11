@@ -1,0 +1,17 @@
+.thumbnailListItem {
+  margin: 25px 15px 15px 15px;
+  padding: 0px;
+}
+
+.thumbnailListImg {
+  width: 150px;
+}
+
+.thumbnailBtn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  margin: 0px;
+  padding: 0px;
+}

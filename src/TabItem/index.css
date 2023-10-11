@@ -1,0 +1,32 @@
+.tabButton {
+  color: #ffffff;
+  height: 50px;
+  width: 150px;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+.btnAfterSelected {
+  color: #fec653;
+  height: 50px;
+  width: 150px;
+  text-align: center;
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #fec653;
+  outline: none;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 15px;
+  cursor: pointer;
+  outline: none;
+}
